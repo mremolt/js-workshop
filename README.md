@@ -18,9 +18,9 @@
 * Comparisons and type coercion (== vs. ===)
 * truthiness
 * Explicit type casting (parseInt, parseFloat, Number, String, Boolean)
+* functions (function arguments, return)
 * console.log
-* debug
-* functions
+* debug & developer tools (Chrome)
 
 
 ### Scope
@@ -32,19 +32,21 @@
 
 ### Functional patterns
 
-* function. method, constructor
+* functions as first class citizens (functions are objects)
+* function name() vs. var name = function()
 * calling functions (call, apply ...)
 * arguments
 * higher order functions
+* making variables "private"
 
 
 ### Arrays
 
 * Array.prototype basics: push, pop, shift, unshift, join
 * Array.prototype.sort
-* Array.prototype.some|every
 * for, while vs. forEach
 * Array.prototype iteration: forEach, map, filter, reduce (ES5)
+* Array.prototype.some|every
 
 
 ### Objects & inheritance
@@ -52,13 +54,15 @@
 * attributes & methods
 * Object.defineProperty|defineProperties
 * this and that
-* Function.prototype.bind
 * constructor functions
 * instance methods
 * "class" methods
+* Function.prototype.bind
 * prototype
 * inheritance
 * "super"
+* "private" properties
+* Object.prototype.preventExtensions
 
 
 ### Exception handling
@@ -67,26 +71,34 @@
 
 ### Events
 
+* Element.prototype.addEventListener
+* Element.prototype.removeEventListener
+* this in Events (bind)
+* Element.prototype.preventDefault
+* Element.prototype.stopPropagation
+
 ### Asynchronous JavaScript
 
 * Callbacks
 * Promises (q)
+* Custom events
 
 
 ## HTML5 & CSS
 
-* html5boilerplate
+* html5boilerplate as a starting point
 * Feature detection (modernizr)
 * media queries
 
 
 ## Tooling
 
-* NodeJS
+* NodeJS/Yeoman/Grunt/Bower
 * WebStorm
-* Yeoman
-* Grunt
-* bower
-* protractor & jasmine
 * jshint
+* protractor & jasmine
+* Module loader? Which one?
 
+## Reading
+
+* http://speakingjs.com/
