@@ -43,8 +43,8 @@
 * function name() vs. var name = function()
 * calling functions (call, apply ...)
 * arguments
-* higher order functions
 * making variables "private"
+* higher order functions
 * don"t pollute the global namespace!
 
 
@@ -60,12 +60,12 @@
 ### Objects & inheritance
 
 * attributes & methods
-* Object.defineProperty|defineProperties
 * this and that
-* constructor functions
+* Function.prototype.bind
+* constructor functions and new
 * instance methods
 * "class" methods
-* Function.prototype.bind
+* Object.defineProperty|defineProperties
 * prototype
 * inheritance
 * "super"
