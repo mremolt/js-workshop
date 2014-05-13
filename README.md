@@ -5,6 +5,7 @@
 * Installing NodeJS
 * Chrome
 * WebStorm
+* http://devdocs.io/
 
 ## JS
 
@@ -44,6 +45,7 @@
 * arguments
 * higher order functions
 * making variables "private"
+* don"t pollute the global namespace!
 
 
 ### Arrays
