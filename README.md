@@ -1,5 +1,11 @@
 # JS Workshop
 
+## Getting started
+
+* Installing NodeJS
+* Chrome
+* WebStorm
+
 ## JS
 
 ### ECMAScript versions (3,5)
@@ -94,11 +100,10 @@
 ## Tooling
 
 * NodeJS/Yeoman/Grunt/Bower
-* WebStorm
 * jshint
 * protractor & jasmine
 * Module loader? Which one?
 
-## Reading
+## Further reading
 
 * http://speakingjs.com/
