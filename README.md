@@ -22,6 +22,7 @@
 * var
 * global functions
 * Types (string, number, boolean, array, object, undefined, null, NaN)
+* typeof keyword
 * Comparisons and type coercion (== vs. ===)
 * truthiness
 * Explicit type casting (parseInt, parseFloat, Number, String, Boolean)
