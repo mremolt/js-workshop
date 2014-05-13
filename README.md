@@ -89,12 +89,16 @@
 * Promises (q)
 * Custom events
 
+### AJAX
+* XMLHttpRequest
+* same origin policy (CORS & JSONP)
 
 ## HTML5 & CSS
 
 * html5boilerplate as a starting point
 * Feature detection (modernizr)
 * media queries
+* twitter bootstrap as example of responsive design
 
 
 ## Tooling
@@ -103,6 +107,8 @@
 * jshint
 * protractor & jasmine
 * Module loader? Which one?
+
+## 
 
 ## Further reading
 
