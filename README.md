@@ -11,8 +11,21 @@
 
 ### ECMAScript versions (3,5)
 
-* ES3/5
-* Preview ES6 (http://www.es6fiddle.net/)
+#### ES3
+
+* published December 1999
+
+#### ES5
+
+* published December 2009
+* strict mode, JSON, Object extensions (properties, Object.create ...), Array extensions, Function.bind
+
+#### Preview ES6 
+
+* scope: adds missing features
+* http://www.es6fiddle.net/
+* module loader system, block scope, real classes, generators ...
+
 
 
 ### Language basics
@@ -103,6 +116,10 @@
 * Promises (q)
 
 
+### module loader: RequireJS
+
+* a demo app
+
 
 ## HTML5 & CSS
 
@@ -119,7 +136,6 @@
 * protractor & jasmine
 * Module loader? Which one?
 
-## 
 
 ## Further reading
 
