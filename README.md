@@ -20,19 +20,21 @@
 * Comments
 * Strict mode
 * var
-* global functions
 * Types (string, number, boolean, array, object, undefined, null, NaN)
 * typeof keyword
 * Comparisons and type coercion (== vs. ===)
 * truthiness
 * Explicit type casting (parseInt, parseFloat, Number, String, Boolean)
+* short circuit logic
 * functions (function arguments, return)
+* what's this?
 * console.log
 * debug & developer tools (Chrome)
 
 
 ### Scope
 
+* root scope: window
 * var!
 * function scope
 * closures
@@ -76,32 +78,38 @@
 
 ### Exception handling
 
-### JSON
 
 ### Events
 
 * Element.prototype.addEventListener
 * Element.prototype.removeEventListener
-* this in Events (bind)
+* this in Events (binding)
 * Element.prototype.preventDefault
 * Element.prototype.stopPropagation
+
+
+### JSON
+
+
+### AJAX
+
+* XMLHttpRequest
+* same origin policy (CORS & JSONP)
+
 
 ### Asynchronous JavaScript
 
 * Callbacks
 * Promises (q)
-* Custom events
 
-### AJAX
-* XMLHttpRequest
-* same origin policy (CORS & JSONP)
+
 
 ## HTML5 & CSS
 
 * html5boilerplate as a starting point
 * Feature detection (modernizr)
 * media queries
-* twitter bootstrap as example of responsive design
+* twitter bootstrap as an example of responsive design
 
 
 ## Tooling

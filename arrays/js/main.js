@@ -54,13 +54,54 @@
     // n is not defined
     console.log('n is', typeof n);
 
-    // map for converting an array
+
+    // reset numbers
+    numbers = [1, 2, 3, 4, 5];
+
+    // use map for iterating over an array and generating a new one with processed values
     var doubles = numbers.map(function(n) {
         return n * 2;
     });
 
     console.log(doubles);
 
+    // use filter for filtering an array via a function: if the function returns a truthy value, the original value is added to the new array
+    var evenNumbers = numbers.filter(function(n) {
+        return n % 2 === 0;
+    });
+
+    console.log(evenNumbers);
+
+
+    // use reduce to accumulate values from an array, what you return from the accumulator function, goes into the first param on the next step
+    var sumOfAll = numbers.reduce(function(sum, n) {
+        return sum + n;
+    }, 0);
+
+    console.log(sumOfAll);
+
+
+    numbers = [1, 2, 4, 5, 8, 9];
+    evenNumbers = [2, 4, 6, 12, 22];
+
+
+    console.log('are there some even numbers in numbers?', numbers.some(function(n) {
+        return n % 2 === 0;
+    }));
+
+
+    // use some|every to test, if some or all elements of an array match a criteria
+    console.log('are there some even numbers in evenNumbers?', evenNumbers.some(function(n) {
+        return n % 2 === 0;
+    }));
+
+    console.log('are there only even numbers in numbers?', numbers.every(function(n) {
+        return n % 2 === 0;
+    }));
+
+    console.log('are there only even numbers in evenNumbers?', evenNumbers.every(function(n) {
+        return n % 2 === 0;
+    }));
 
 
 

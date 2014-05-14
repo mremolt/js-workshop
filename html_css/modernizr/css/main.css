@@ -1,0 +1,19 @@
+
+html.canvas .needs-canvas {
+    display: block;
+}
+
+html.no-canvas .needs-canvas {
+    display: none;
+
+}
+
+html.touch .needs-touch {
+    display: block;
+
+}
+
+html.no-touch .needs-touch {
+    display: none;
+
+}

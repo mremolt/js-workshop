@@ -1,0 +1,36 @@
+/* default css rules, optimized for smartphones (mobile first) */
+
+div {
+    width: 100%;
+    border: 1px solid blue;
+    font-size: 18px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    div {
+        width: 100%;
+        border: 1px solid green;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    div {
+        width: 992px;
+        margin: 0 auto 0 auto;
+        border: 1px solid black;
+        font-size: 16px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    div {
+        width: 1200px;
+        margin: 0 auto 0 auto;
+        border: 1px solid red;
+    }
+
+}
