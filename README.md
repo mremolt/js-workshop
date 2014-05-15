@@ -2,19 +2,19 @@
 
 ## Getting started
 
-* Installing NodeJS
-* Chrome
 * WebStorm
+* Chrome
+* NodeJS
 * http://devdocs.io/
 
 ## JS
 
-### ECMAScript versions (3,5)
+### ECMAScript
 
 #### ES3
 
 * published December 1999
-* first usable version of JS
+* first "usable" version of JS
 
 #### ES5
 
@@ -154,5 +154,7 @@
 
 * http://speakingjs.com/
 * JavaScript: The Good Parts (Douglas Crockford)
+  * The bad parts: http://oreilly.com/javascript/excerpts/javascript-good-parts/bad-parts.html
+  * The awful parts: http://oreilly.com/javascript/excerpts/javascript-good-parts/awful-parts.html
 * https://developer.mozilla.org/en/docs/JavaScript
 * http://javascriptweekly.com/

@@ -44,11 +44,13 @@ console.log('window === this:', window === this);
 
 
 // some DOM basics, the rest of the workshop pretty much ignores DOM
-
-document.getElementById();
-document.getElementsByClassName();
-
-
+// for DOM manipulation, use jQuery or what the used framework gives you,
+// AngularJS & Co. don't rely on manipulating the DOM anymore
+// window
+// window.document
+// document.body.children
+//document.getElementById('the-id');
+//document.getElementsByClassName('the-class');
 
 
 // using the debugger
@@ -56,11 +58,11 @@ var x = 42;
 
 function first() {
     var y = 5;
-    debugger;
+    //debugger;
 
     function second() {
         var z = 12;
-        debugger;
+        //debugger;
     }
 
     second();
