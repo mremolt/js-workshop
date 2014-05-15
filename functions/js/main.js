@@ -36,16 +36,17 @@ var logArguments = function() {
 logArguments('Arthur', 'Dent', 42, 'another param');
 
 
-// there are three different (OK, 5) ways to call a function
+// there are three different ways to call a function
+// (OK, 5, see http://devlicio.us/blogs/sergio_pereira/archive/2009/02/09/javascript-5-ways-to-call-a-function.aspx)
 
 // the usual (), the current scope is applied automatically (more about that when we talk about objects)
 sayName('Arthur', 'Dent');
 
 // call, with explicit scope
-sayName.call(window, 'Arthur', 'Dent');
+sayName.call(this, 'Arthur', 'Dent');
 
 // apply, with explicit scope
-sayName.apply(window, ['Arthur', 'Dent']);
+sayName.apply(this, ['Arthur', 'Dent']);
 
 
 // to prevent access to variables from the outer scope, we use closures and inner functions

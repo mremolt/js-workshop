@@ -14,35 +14,40 @@
 #### ES3
 
 * published December 1999
+* first usable version of JS
 
 #### ES5
 
-* published December 2009
+* published December 2009 (ES 5) / June 2011 (ES 5.1)
 * strict mode, JSON, Object extensions (properties, Object.create ...), Array extensions, Function.bind
+* supported in all modern browsers and IE >= 9
+* shim for older browsers https://github.com/es-shims/es5-shim (adds ES5 features, where possible)
+
 
 #### Preview ES6 
 
 * scope: adds missing features
+* module loader system, block scope, real classes, generators (yield) ...
 * http://www.es6fiddle.net/
-* module loader system, block scope, real classes, generators ...
-
 
 
 ### Language basics
 
+* developer tools (Chrome)
+* console.log
 * Comments
-* Strict mode
 * var
 * Types (string, number, boolean, array, object, undefined, null, NaN)
 * typeof keyword
 * Comparisons and type coercion (== vs. ===)
-* truthiness
-* Explicit type casting (parseInt, parseFloat, Number, String, Boolean)
-* short circuit logic
+* truthiness (http://speakingjs.com/es5/ch10.html)
+* Explicit type casting (Number, String, Boolean, parseInt, parseFloat)
+* short circuit logic (||, &&)
 * functions (function arguments, return)
 * what's this?
-* console.log
-* debug & developer tools (Chrome)
+* DOM basics
+* Strict mode http://speakingjs.com/es5/ch07.html#strict_mode
+* using the debugger
 
 
 ### Scope
@@ -61,7 +66,7 @@
 * arguments
 * making variables "private"
 * higher order functions
-* don"t pollute the global namespace!
+* don't pollute the global namespace!
 
 
 ### Arrays
@@ -91,6 +96,11 @@
 
 ### Exception handling
 
+* try, catch, finally
+* throw
+* catching a specific error
+* defining own Error subtypes
+
 
 ### Events
 
@@ -102,6 +112,10 @@
 
 
 ### JSON
+
+* Syntax of a JSON document
+* JSON.parse
+* JSON.stringify
 
 
 ### AJAX
@@ -126,17 +140,19 @@
 * html5boilerplate as a starting point
 * Feature detection (modernizr)
 * media queries
-* twitter bootstrap as an example of responsive design
+* twitter bootstrap as an example of responsive design (new WebStorm Project)
 
 
-## Tooling
+## Preview ES6
 
-* NodeJS/Yeoman/Grunt/Bower
-* jshint
-* protractor & jasmine
-* Module loader? Which one?
+* Traceur: https://github.com/google/traceur-compiler
+* Traceur & WebStorm https://www.youtube.com/watch?v=jbfkcmxLLKY
+* http://www.es6fiddle.net/
 
 
-## Further reading
+## Further reading & Infos
 
 * http://speakingjs.com/
+* JavaScript: The Good Parts (Douglas Crockford)
+* https://developer.mozilla.org/en/docs/JavaScript
+* http://javascriptweekly.com/

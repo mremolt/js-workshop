@@ -44,9 +44,12 @@
 
     console.log(numbers);
 
+    // join an array into a string
+    console.log(numbers.join(', '));
+
 
     // always prefer Array.prototype.forEach (and siblings) to for and while loops
-    // because it is not only shorter and mire readable, but we also get a function scope for free
+    // because it is not only shorter and more readable, but we also get a function scope for free
     numbers.forEach(function(n) {
         console.log('number:', n);
     });
@@ -102,8 +105,6 @@
     console.log('are there only even numbers in evenNumbers?', evenNumbers.every(function(n) {
         return n % 2 === 0;
     }));
-
-
 
 
 
